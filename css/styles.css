@@ -1,0 +1,140 @@
+ /* #2196F3 синий акцент*/
+ /* #212121 черный основной*/
+ /* #000000 лого */
+ /* #757575 дополнительный серый */
+ /* #FFFFFF осн заголовок и кнопка */
+ /* rgba(255, 255, 255, 0.6) телефон и почта в футере*/
+
+ .site-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: #000000;
+ }
+
+ .logo-color{
+     color: #2196F3;
+ }
+
+ .site-nav-menu-link{
+    font-family: "Roboto", sans-serif;    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;    
+    color: #212121;
+ }
+
+ .site-nav-menu-link:hover,
+ .site-nav-menu-link:focus,
+ .contacts-list-mail:hover,
+ .contacts-list-mail:focus,
+ .footer-address-mail:hover,
+ .footer-address-mail:focus{
+     color: #2196F3;
+ }
+
+.contacts-list-phone,
+.contacts-list-mail{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.hero-header{
+font-family: "Roboto", sans-serif;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.364;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF; */
+}
+
+.hero-button{
+font-family: Roboto;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.875;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #2196F3;
+}
+
+.advantages-name{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.advantages-description{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.whatwedo-header,
+.comand-header{
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.comand-list-item-name{
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.comand-list-item-profession{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.188;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+.footer-address-mail,
+.footer-address-phone{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-address-physical{
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
+}
