@@ -14,6 +14,14 @@ body{
     font-family: var(--main-font);
 }
 
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
 /* ----------------------header--------------------------- */
  .contacts,
  .footer-contacts{
@@ -139,13 +147,17 @@ color: #757575;
 }
 /* ---------------------end comand------------------------- */
 /* ----------------------footer--------------------- */
+.footer{
+    background: #2F303A;
+}
+
 .footer-address-mail,
 .footer-address-phone{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
-/* color: rgba(255, 255, 255, 0.6); */
+color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-address-physical{
@@ -153,7 +165,11 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
-/* color: #FFFFFF; */
+color: #FFFFFF;
+}
+
+.footer .site-logo{
+    color:#FFFFFF;
 }
 /* ------------------end footer-------------------------- */
 /* ---------------portfolio projects button------------- */
@@ -164,6 +180,8 @@ line-height: 1.625;
 text-align: center;
 letter-spacing: 0.03em;
 color: #212121;
+background: #F5F4FA;
+border-radius: 4px;
 }
 
 .project-button:hover,
